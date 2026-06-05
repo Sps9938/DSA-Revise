@@ -4,7 +4,7 @@ class Solution{
     public:
         void print(int n){
             for(int i=0; i<n; i++){
-                for(int j=0; j<=i; j++){
+                for(int j=0; j<n; j++){
                     cout<<"*"<<" ";
                 }
                 cout<<endl;
@@ -14,8 +14,7 @@ class Solution{
 
 int main(){
     Solution s1;
-    // cout<<"Hello"<<endl;
-    s1.print(4);
+    s1.print(5);
 
     return 0;
 }

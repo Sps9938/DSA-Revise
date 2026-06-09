@@ -20,5 +20,5 @@ int main(){
     Solution s1;
     s1.print(50);
 
-    return 0;
+return 0;
 }
